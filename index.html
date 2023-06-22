@@ -1,0 +1,46 @@
+<!-- dopisać kod js żeby po kliknieciu dodawało serduszko do obecnej liczby (pobrac oba elementy, add event listener na serdszko i wykonanie funcji) -->
+
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <img class="logo" src="images/logo.png" />
+        <img
+          class="user-avatar"
+          src="images/user-avatar.png"
+          alt="Your avatar"
+        />
+      </header>
+      <main>
+        <div class="user-informations">
+            <div class="box-for-avatar">
+            <img class="user-avatar" src="images/avatar-vangogh.jpg" />
+        </div>
+            <div class="box-for-user-informations">
+           <p><span class="bold vincent">Vincent van Gogh</span></span></p><p>Zudert, Netherlands</p>
+        </div>
+        </div>
+        <img
+          class="post-vangogh"
+          src="images/post-vangogh.jpg"
+          alt="Post of Vangogh with his picture"
+        />
+        <div class="reactions">
+            <img class="heart" src="images/icon-heart.png" alt="Icon of heart"></img>
+            <img class="message" src="images/icon-comment.png" alt="Icon of comment"></img>
+            <img class="dm" src="images/icon-dm.png" alt="Icon of direct message"></img>
+        </div>
+        <p class="bold likesnumber"><span class="likes">21,492</span> likes</p>
+        <p class="comment"><span class="bold">vincey1853</span><span class="vincey-comment"> took a few mushrooms lol</span></p>
+      </main>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
